@@ -195,7 +195,7 @@
 }
 
 .image__rotate-opacity {
-  filter: hue-rotate(90deg) opacity(0.7)
+  filter: contrast(1110%) opacity(0.7);
 }
 
 .card__content-wrapper {
