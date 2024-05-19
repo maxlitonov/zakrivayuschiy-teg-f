@@ -15,6 +15,7 @@
 */
 
 .page {
+  background-color: var(--bg-color);
   min-inline-size: 320px;
   min-block-size: 100dvb;
   background-image: var(--bg-image);
@@ -50,6 +51,7 @@
   text-decoration: none;
   margin-block-end: 20px;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  outline: none;
 }
 
 .header__title {
@@ -284,6 +286,7 @@ a {
 
 .button:focus-visible {
   box-shadow: 2px 2px 0px 0px var(--border-color);
+  transition: 0.3s ease;
 }
 
 .card__icon-button {
@@ -349,7 +352,7 @@ dialog::backdrop {
 }
 
 .modal__title {
-  font-family: var(--font-font-family-mainaccent, fantasy);
+  font-family: var(--font-font-family-accent, fantasy);
   text-transform: uppercase;
   font-size: 14px;
   line-height: 21px;
