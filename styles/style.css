@@ -285,7 +285,6 @@ a {
 
 .button:focus-visible {
   box-shadow: 2px 2px 0px 0px var(--border-color);
-  transition: 0.3s ease;
 }
 
 .card__icon-button {
